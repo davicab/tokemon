@@ -58,10 +58,19 @@ body {
     height: 300px;
 }
 .catch{
-    width: auto;
-    height: 200px;
+    width: 200px;
+    height: 300px;
     display: flex;
     flex-direction: column;
+    border: 1px solid #bebebe;
+    border-radius: 12px;
+    background-color: #e2e2e2;
+}
+.catch .img,
+.catch #name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #name{
     font-family: pokemon;
